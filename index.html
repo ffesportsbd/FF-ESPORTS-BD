@@ -33,5 +33,20 @@
 </div>
 
 <script src="app.js"></script>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
 
+  const firebaseConfig = {
+  apiKey: "AIzaSyDAoDWYdNEJomegKALi-rn_fEx3PauCSoE",
+  authDomain: "ff-sports-bd-156d6.firebaseapp.com",
+  projectId: "ff-sports-bd-156d6",
+  storageBucket: "ff-sports-bd-156d6.firebasestorage.app",
+  messagingSenderId: "409598257844",
+  appId: "1:409598257844:web:d62a43f39c867b005105e1",
+  measurementId: "G-S81RQ56XBL"
+};
+
+  const app = initializeApp(firebaseConfig);
+  console.log("Firebase Connected!");
+</script>
 </body

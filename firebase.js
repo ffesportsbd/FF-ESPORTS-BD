@@ -1,12 +1,13 @@
 // Firebase Config এখানে বসবে
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDAoDWYdNEJomegKALi-rn_fEx3PauCSoE",
+  authDomain: "ff-sports-bd-156d6.firebaseapp.com",
+  projectId: "ff-sports-bd-156d6",
+  storageBucket: "ff-sports-bd-156d6.firebasestorage.app",
+  messagingSenderId: "409598257844",
+  appId: "1:409598257844:web:d62a43f39c867b005105e1",
+  measurementId: "G-S81RQ56XBL"
 };
 
 // Firebase SDK পরে যোগ করা হবে।

@@ -1,13 +1,17 @@
-// Firebase Config এখানে বসবে
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+import { getAuth } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDAoDWYdNEJomegKALi-rn_fEx3PauCSoE",
-  authDomain: "ff-sports-bd-156d6.firebaseapp.com",
-  projectId: "ff-sports-bd-156d6",
-  storageBucket: "ff-sports-bd-156d6.firebasestorage.app",
-  messagingSenderId: "409598257844",
-  appId: "1:409598257844:web:d62a43f39c867b005105e1",
-  measurementId: "G-S81RQ56XBL"
+  apiKey: "তোমার apiKey",
+  authDomain: "তোমার authDomain",
+  projectId: "তোমার projectId",
+  storageBucket: "তোমার storageBucket",
+  messagingSenderId: "তোমার messagingSenderId",
+  appId: "তোমার appId"
 };
 
-// Firebase SDK পরে যোগ করা হবে।
+const app = initializeApp(firebaseConfig);
+
+export const auth = getAuth(app);
+export const db = getFirestore(app);
